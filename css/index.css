@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-linear-gradient(aqua, teal);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.five {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  animation: fall 2s ease;
+}
+.four {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  animation: fall 5s ease;
+}
+.three {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  animation: fal 3s ease;
+}
+.two {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  animation: fall 7s ease;
+}
+.one {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  animation: fall 5s ease;
+}
+
+@keyframes fall {
+  0% {marign-top: -100%;}
+  100% {margin-top: 100%;}
+}
